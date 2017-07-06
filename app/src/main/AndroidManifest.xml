@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".screen.weatherlist.WeatherListActivity">
+        <activity android:name=".screen.weatherlist.MyWeatherList.MyWeatherListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

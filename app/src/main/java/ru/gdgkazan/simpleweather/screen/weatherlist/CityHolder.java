@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import butterknife.BindView;
+import butterknife.BindViews;
 import butterknife.ButterKnife;
 import ru.gdgkazan.simpleweather.R;
 import ru.gdgkazan.simpleweather.model.City;
@@ -20,6 +21,7 @@ public class CityHolder extends RecyclerView.ViewHolder {
 
     @BindView(R.id.temperature)
     TextView mTemperature;
+
 
     public CityHolder(@NonNull View itemView) {
         super(itemView);
